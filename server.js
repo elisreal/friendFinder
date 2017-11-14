@@ -9,9 +9,9 @@ var friends = require('./app/friends.js');
 
 // Body Parser & Express setup-----------------------------------------
 var app = express();
-var port = 3000;
+var port = process.env.PORT || 8080;
 
-app.use(express.static( '/app/public' ));
+app.use(express.static('/app/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
