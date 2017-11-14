@@ -6,15 +6,22 @@ body{
     background-attachment: fixed;
 }
 
+footer {
+    margin-bottom: 60px;
+}
+
 .jumbotron {
-    background-color: firebrick;
+    background-color: rgba(178, 34, 34, 0);
     color: white;
-    opacity: .75;
     margin-top: 20px;
 }
 
 #submit {
-    background: firebrick;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    background-color: #9300ff;
+    border-radius: 0px;
+    border-color: #9300ff;
 }
 
 #jumbo_h2 {
@@ -27,6 +34,44 @@ body{
     border-color: #2e6da4;
 }
 
+.panel-default>.panel-heading {
+    background-color: #9300ff;
+    border-color: #9300ff;
+}
+
 .panel-title {
-    color: firebrick;
+    color: #FFF;
+}
+
+.gh {
+    width: 50px;
+    height: 50px;
+}
+
+div.container.text-center {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+}
+
+h2.text-center {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+
+button.btn.btn-lg.btn-primary {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    background-color: #9300ff;
+    border-radius: 0px;
+    border-color: #9300ff;
+}
+
+.panel-body {
+    padding-right: 30px;
+    padding-left: 30px;
 }
