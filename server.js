@@ -11,7 +11,7 @@ var friends = require('./app/friends.js');
 var app = express();
 var port = process.env.PORT || 8080;
 
-app.use(express.static('/app/public'));
+app.use(express.static('./app/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
